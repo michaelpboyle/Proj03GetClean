@@ -13,7 +13,7 @@ A high-level description of the data cleaning process is found here: [ReadMe](ht
 
 **-----------------------------------------------------------------------------**
 
-The dataset "averages_HCI.txt" consists of 180 rows (30 subjects with 5 activities each) and 81 columns. The variables are:
+The dataset "averages_HCI.txt" consists of 180 rows (30 subjects with 6 activities each) and 81 columns. The variables are:
 
 1) "Activity" - Activity the subject was doing when measurements were taken. 6 Levels: "LAYING" "SITTING" "STANDING" "WALKING" "WALKING_DOWNSTAIRS" "WALKING_UPSTAIRS" 
 
