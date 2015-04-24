@@ -2,7 +2,7 @@
 ## April 2015 Course Project
 ### Human Activity Recognition Using Smartphones
 
-The run_analysis.R script provides a summary on certain variables in
+The [run_analysis.R](https://github.com/michaelpboyle/Proj03GetClean/blob/master/run_analysis.R) script provides a summary on certain variables in
 the "Human Activity Recognition Using Smartphones" Dataset from the
 UCI Machine Learning Repository.
 

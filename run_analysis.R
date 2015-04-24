@@ -116,15 +116,3 @@ str(averages_HCI)   ## Show structure of final dataset
 write.table(averages_HCI,file="./averages_HCI.txt",row.name=FALSE)
 
 q()
-
-## Use lower case names and show unique
-
-### Make sure to include units in codebook
-
-## If you right click on a file name in the submission box and copy the web address, you can paste it into a script.
-
-## address <- "https://s3.amazonaws.com/coursera-uploads/user-longmysteriouscode/asst-3/massivelongcode.csv"
-## address <- sub("^https", "http", address)
-### ## if they used some other way of saving the file than a default write.table, this step will be different
-## data <- read.table(url(address), header = TRUE)
-## View(data)
