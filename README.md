@@ -18,6 +18,3 @@ The process runs the following steps:
 6. Write resulting dataframe "averages_HCI" to a text file.
 
 Please see [*CodeBook*](https://github.com/michaelpboyle/Proj03GetClean/blob/master/Codebook.md) for more details on the Tidy dataset.
-
-The following R statement will read the table back into R (assuming the output text files is in your working directory):
-avg_df <- read.table("./averages_HCI.txt",header=TRUE)

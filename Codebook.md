@@ -13,13 +13,14 @@ A high-level description of the data cleaning process is found here: [ReadMe](ht
 
 ====================================================================
 
-The dataframe "avg_df" consists of 180 rows and 81 columns.
+The dataset "averages_HCI.txt" consists of 180 rows (30 subjects with 5 activities each) and 81 columns. The variables are:
 
-1) "Activity" - Activity the subject was doing when measurements were taken.
+1) "Activity" - Activity the subject was doing when measurements were taken. 6 Levels: "LAYING" "SITTING" "STANDING" "WALKING" "WALKING_DOWNSTAIRS" "WALKING_UPSTAIRS" 
 
 2) "Subject" - An identifier of the subject who carried out the experiment. Range is from 1 to 30.
 
-Others) Remaining 79 variables (columns) are the averages in 'g' (standard gravity) units for the measurements taken
+Others) Remaining 79 variables (columns) are the averages in normalized 'g' (standard gravity) units for the measurements taken
+### 79 Features:
 
 "tBodyAccmeanX"                "tBodyAccmeanY"               
 "tBodyAccmeanZ"                "tBodyAccstdX"                
@@ -64,7 +65,7 @@ Others) Remaining 79 variables (columns) are the averages in 'g' (standard gravi
 
 ====================================================================
 
-Here are summary statistics on the 81 variables:
+Here are summary statistics on the 79 feature variables:
 
  "tBodyAccmeanX"
 
