@@ -11,7 +11,7 @@ Information about the raw data can be found at the [UCI Machine Learning Reposit
 
 A high-level description of the data cleaning process is found here: [ReadMe](https://github.com/michaelpboyle/Proj03GetClean/blob/master/README.md).  The detailed script is here: [run_analysis.R](https://github.com/michaelpboyle/Proj03GetClean/blob/master/run_analysis.R)
 
-====================================================================
+-----------------------------------------------------------------------------
 
 The dataset "averages_HCI.txt" consists of 180 rows (30 subjects with 5 activities each) and 81 columns. The variables are:
 
@@ -63,7 +63,7 @@ Others) Remaining 79 variables (columns) are the averages in normalized 'g' (sta
 "fBodyBodyGyroJerkMagmean"     "fBodyBodyGyroJerkMagstd"     
 "fBodyBodyGyroJerkMagmeanFreq"
 
-====================================================================
+-----------------------------------------------------------------------------
 
 Here are summary statistics on the 79 feature variables:
 
@@ -541,7 +541,7 @@ Here are summary statistics on the 79 feature variables:
 
 -1.00000 -0.01948  0.13620  0.12670  0.28900  1.00000 
 
-====================================================================
+-----------------------------------------------------------------------------
 
 ### More information about the raw feature variables:
    (From [UCI Machine Learning Repository](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones))
@@ -562,4 +562,4 @@ The set of variables that were estimated from these signals are:
 * mean(): Mean value
 * std(): Standard deviation
 
-====================================================================
+-----------------------------------------------------------------------------
