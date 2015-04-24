@@ -15,6 +15,6 @@ The process runs the following steps:
 3. Create new dataframe containing only "Subject", "Activity", and all "mean" and "std" features.
 4. Add field for description of Activity.
 5. Summarize dataframe returning "Subject", "Activity", and the averages for the remaining feature fields.
-6. Write resulting dataframe "averages_HCI" to a text file.
+6. Write resulting dataframe "averages_HCI" to a text file. [averages_HCI.txt](https://raw.githubusercontent.com/michaelpboyle/Proj03GetClean/master/averages_HCI.txt)
 
 Please see [*CodeBook*](https://github.com/michaelpboyle/Proj03GetClean/blob/master/Codebook.md) for more details on the Tidy dataset.
