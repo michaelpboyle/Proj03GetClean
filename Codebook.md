@@ -17,7 +17,7 @@ The dataset "averages_HCI.txt" consists of 180 rows (30 subjects with 6 activiti
 
 1) "Activity" - Activity the subject was doing when measurements were taken. 6 Levels: "LAYING" "SITTING" "STANDING" "WALKING" "WALKING_DOWNSTAIRS" "WALKING_UPSTAIRS" 
 
-2) "Subject" - An identifier of the subject who carried out the experiment. Range is from 1 to 30.
+2) "Subject" - An identifier of the subject who carried out the experiment. 30 values, integers from 1 to 30.
 
 Others) Remaining 79 variables (columns) are the averages in normalized 'g' (standard gravity) units for the measurements taken
 ### 79 Features:

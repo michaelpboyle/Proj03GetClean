@@ -6,10 +6,10 @@ The [run_analysis.R](https://github.com/michaelpboyle/Proj03GetClean/blob/master
 the "Human Activity Recognition Using Smartphones" Dataset from the
 UCI Machine Learning Repository.
 
-The process runs the following steps:
+The script runs the following steps:
 
 1. Get the data and load. Details of source data can be found at [UCI Machine Learning Repository](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones). Data can be found here: [UCI HAR Dataset](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip) 
-      * Download and extract files.
+      * Download and extract files to working directory.
       * Load "features.txt" into R dataframe. (Remove punctuation from values, to be used as column names.)
       * Load X_test.txt, subject_test.txt, and y_test.txt from both the test and train sub-directories into R dataframes. Combine the 3 dataframes to create one dataframe each for test and train.
 2. Combine test and train dataframes (df_test and df_train).
